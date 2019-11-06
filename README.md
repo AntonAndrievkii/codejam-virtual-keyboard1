@@ -1,4 +1,4 @@
-https://antonandrievkii.github.io/Codejam-Virtual-Keyboard/
+https://antonandrievkii.github.io/codejam-virtual-keyboard/
 
 # keybord
 
