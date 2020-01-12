@@ -1,0 +1,152 @@
+body{
+    background: bisque;
+}
+.keyboard {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid #00332c;
+    border-radius: 4px;
+    background-color: #FFEB3B;
+    font-family: sans-serif;
+    color: red;
+}
+
+.keyboard__row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.text-area {
+    width: 800px;
+    height: 300px!important;
+    margin: 20px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.key {
+    background-color: #ff9800;
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.key:hover {
+    background-color: #2196F3;
+}
+
+.system-key-xsm {
+    background-color: #FF9800;
+    height: 50px;
+    width: 59px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: red;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.system-key-xsm:hover {
+    background-color: #2196F3;
+}
+
+.system-key-sm {
+    background-color: #FF9800;
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: red;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.system-key-sm:hover {
+    background-color: #2196F3;
+}
+
+.system-key-md {
+    background-color: #FF9800;
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: red;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.system-key-md:hover {
+    background-color: #2196F3;
+}
+
+.system-key-lg {
+    background-color: #FF9800;
+    height: 50px;
+    width: 123px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: red;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.system-key-lg:hover {
+    background-color: #2196F3;
+}
+
+.system-key-back {
+    background-color: #FF9800;
+    height: 50px;
+    width: 100px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: red;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.system-key-back:hover {
+    background-color: #2196F3;
+}
+
+.space {
+    background-color: #FF9800;
+    width: 344px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.space:hover {
+    background-color: #2196F3;
+}
+
+.active {
+    background-color: #FF6A00 !important;
+    color: #FF9800 !important;
+}
